@@ -10,7 +10,7 @@ In this repository, I will be putting some of my data cleaning practice codes.<b
 Observations of the data usually a row of the dataset. Think if a row is not clean, we are misrepresenting to our model, the relationship between our features and our targets, messy data can lead to "garbage-in, garbage-out" effect.
 
 To ensure that our data is clean :
-- **Skewed data** can b handle by transforming it into normally distributed data by doing log transformation or box cox method or square root transformation, [here is an article](https://towardsdatascience.com/top-3-methods-for-handling-skewed-data-1334e0debf45)
+- **Skewed data** , it can be handle by transforming it into normally distributed data by doing log transformation or box cox method or square root transformation, [here is an article](https://towardsdatascience.com/top-3-methods-for-handling-skewed-data-1334e0debf45)
 - Avoid **data duplicates**, that can bring extra weight to observations/unnecessary noise to model.
 - Avoid **inconsistent text** and typos (wrong spelling, extra spaces, the capitalized/non-capitalized letters. This will all lead to the same feature, being   
                                         categorized as different values, even though they should be categorized as the same.)
