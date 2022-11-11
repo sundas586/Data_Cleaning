@@ -13,7 +13,6 @@ In this repository, I will be putting some of my data cleaning practice codes.<b
 Observations of the data usually a row of the dataset. Think if a row is not clean, we are misrepresenting to our model, the relationship between our features and our targets, messy data can lead to "garbage-in, garbage-out" effect.
 
 To ensure that our data is clean :
-- **Skewed data** , it can be handle by transforming it into normally distributed data by doing log transformation or box cox method or square root transformation, [here is an article](https://towardsdatascience.com/top-3-methods-for-handling-skewed-data-1334e0debf45)
 - Avoid **data duplicates**, that can bring extra weight to observations/unnecessary noise to model.
 - Avoid **inconsistent text** and typos (wrong spelling, extra spaces, the capitalized/non-capitalized letters. This will all lead to the same feature, being   
                                         categorized as different values, even though they should be categorized as the same.)
@@ -21,7 +20,7 @@ To ensure that our data is clean :
 - **Outliers** (that can skew a feature disproportionately and make it difficult to find the true underlying model.)
 - **Data sourcing issues** (Trouble bringing in data from multiple systems, or working with different database types, or trying to wrangle and combine data coming from                             on-premises versus on-the-cloud or many others, makes it difficult to combine them).
 - **Scaling** in scaling, you change the range of your data (check that if one column has unit mm that all columns have unit mm and not km or m, etc)
-- **Normalization**, in normalization, you change the shape of the distribution of your data (If data i skewed, transform it to normal dist. so that whole area is                           equals to one, check feature engineering repository for explainantion)
+- **Normalization**, in normalization, you change the shape of the distribution of your data (If data i skewed, transform it to normal dist. so that whole area is                           equals to one, check feature engineering repository for explainantion or [an article](https://towardsdatascience.com/top-3-methods-for-handling-skewed-data-1334e0debf45))
 - **Character Encodings** (Avoid Uni-code-Decode-Errors when loading CSV files).
 - There must be **sufficient relevant data**.
 - One hot encoding of catagorical data
