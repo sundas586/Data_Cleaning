@@ -23,6 +23,7 @@ To ensure that our data is clean :
 - **Scaling and Normalization** (in scaling, you change the range of your data, in normalization, you change the shape of the distribution of your data).
 - **Character Encodings** (Avoid Uni-code-Decode-Errors when loading CSV files).
 - There must be **sufficient relevant data**.
+- One hot encoding of catagorical data
 
 ## Policies for missing data :
 
