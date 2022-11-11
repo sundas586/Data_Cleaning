@@ -19,8 +19,9 @@ To ensure that our data is clean :
                                         categorized as different values, even though they should be categorized as the same.)
 - **Missing data**. (Null entries, and why they are null).
 - **Outliers** (that can skew a feature disproportionately and make it difficult to find the true underlying model.)
-- **Data sourcing issues** (Trouble bringing in data from multiple systems, or working with different database types, or trying to wrangle and combine data coming from                               on-premises versus on-the-cloud or many others, makes it difficult to combine them).
-- **Scaling and Normalization** (in scaling, you change the range of your data, in normalization, you change the shape of the distribution of your data).
+- **Data sourcing issues** (Trouble bringing in data from multiple systems, or working with different database types, or trying to wrangle and combine data coming from                             on-premises versus on-the-cloud or many others, makes it difficult to combine them).
+- **Scaling** in scaling, you change the range of your data (check that if one column has unit mm that all columns have unit mm and not km or m, etc)
+- **Normalization**, in normalization, you change the shape of the distribution of your data (If data i skewed, transform it to normal dist. so that whole area is                           equals to one, check feature engineering repository for explainantion)
 - **Character Encodings** (Avoid Uni-code-Decode-Errors when loading CSV files).
 - There must be **sufficient relevant data**.
 - One hot encoding of catagorical data
